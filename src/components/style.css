@@ -1,0 +1,28 @@
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgb(231, 235, 245);
+    padding: 10px;
+}
+
+li {
+    list-style: number;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px 10px;
+
+
+}
+
+.btn {
+    background-color: rgb(35, 92, 9);
+    color: azure;
+    border-radius: 8px;
+    padding: 2px 10px;
+    margin-top: 10px;
+}
