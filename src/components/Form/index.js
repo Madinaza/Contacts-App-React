@@ -26,19 +26,19 @@ function Form({ addContacts, contacts }) {
   return (
     <form onSubmit={onSubmit}>
       <div>
-        <input
+        <input className="inputs"
           name="fullname"
           value={form.fullname}
           onChange={onChange}
-          placeholder="FullName:"
+          placeholder="   FullName:"
         />
       </div>
       <div>
-        <input
+        <input className="inputs"
           name="phone_number"
           value={form.phone_number}
           onChange={onChange}
-          placeholder="Phone Number:"
+          placeholder="   Phone Number:"
         />
       </div>
       <div>

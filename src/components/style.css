@@ -7,15 +7,24 @@
 
 .container {
     background-color: rgb(231, 235, 245);
-    padding: 10px;
+    padding: 20px;
+    width: 500px;
+
+}
+
+ul {
+    margin: 15px 0px;
+    padding-inline-start: 0px;
+    background-color: rgb(237, 205, 215);
+
 }
 
 li {
     list-style: number;
-    font-size: 20px;
-    padding: 0px;
-    margin: 0px 10px;
-
+    padding: 5px;
+    margin: 0px 7px;
+    display: flex;
+    justify-content: space-between;
 
 }
 
@@ -23,6 +32,14 @@ li {
     background-color: rgb(35, 92, 9);
     color: azure;
     border-radius: 8px;
-    padding: 2px 10px;
+    padding: 10px 10px;
+    width: 100%;
     margin-top: 10px;
+}
+
+.inputs {
+    width: 100%;
+    padding: 15px 4px 15px 0px;
+    border-radius: 8px;
+    margin: 10px 0px;
 }
