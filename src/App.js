@@ -1,8 +1,10 @@
-import Contacts from "./components/Contact";
+import Movie from "./Movie";
+
 
 function App() {
   return <div className="App">
-  <Contacts />;
+
+<Movie />
   </div>;
 }
 
